@@ -33,7 +33,14 @@ Talk about the option for running the app:
 
 ## Chapter 2 ???
 
-### 3 -
+### 3 - Templates
+
+In this episode we create our first template and discuss template inheritance.
+
+- Create the templates directory
+  - Discuss the `template_folder` keyword argument to the Flask constructor
+- Create the `base.html` template
+- Create the `post.html` template
 
 ### ? - Generating a Feed
 
