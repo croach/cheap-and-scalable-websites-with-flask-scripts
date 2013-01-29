@@ -1,3 +1,3 @@
-[submodule "flask_blog_generator"]
-	path = flask_blog_generator
+[submodule "code"]
+	path = code
 	url = git@github.com:croach/flask_blog_generator.git
