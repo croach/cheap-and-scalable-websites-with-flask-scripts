@@ -14,6 +14,21 @@ We begin by discussing the role of micro-frameworks and why you should learn one
 
 In this lesson, we'll install Flask and create our very first "Hello World" application.
 
+Talk about what the creation of the app object does; things like:
+  - sets up path information (root, templates, static, etc.)
+  - sets the config
+      - Two ways to do this:
+          1) Through a config file - app.config.from_pyfile('settings.cfg')
+              - You can also use app.config.from_envar('SETTINGS_FILE')
+                to point to a file containing your config settings
+          2) Through a python module - app.config.from_object(__name__)
+      - In either case, only upper case attributes are added to the config
+
+Talk about the option for running the app:
+  - host: set to '0.0.0.0' to make it available externally, default to '127.0.0.1'
+  - port: defaults to 5000
+  - debug: Set to true to auto restart after a change
+
 ---
 
 ## Chapter 2 ???
@@ -43,6 +58,14 @@ Use the `error_handler` decorator to create a 404 handler. (This one might be be
 ### ? - Custom Jinja Template Filter
 
 Create and register a custom `date` filter.
+
+### ? - Werkzeug Debugger
+
+This episode will take a look at the powerful Werkzeug debugger that comes with Flask.
+
+### ? - Generating URLs
+
+This episode will cover writing URL generators for Frozen.
 
 [flask]: http://flask.pocoo.org
 [werkzeug]: http://werkzeug.pocoo.org
