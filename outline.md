@@ -42,6 +42,10 @@ In this episode we create our first template and discuss template inheritance.
 - Create the `base.html` template
 - Create the `post.html` template
 
+### 4 - Add the Post Class
+
+In this episode we add a simple Post class to abstract away the details of the underlying text file.
+
 ### ? - Generating a Feed
 
 This episode demonstrates how easy it is to use the underlying Werkzeug library within a Flask app by using the [AtomFeed][atom] class to generate a Atom feed for our blog.
