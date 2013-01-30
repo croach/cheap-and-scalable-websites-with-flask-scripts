@@ -14,20 +14,6 @@ We begin by discussing the role of micro-frameworks and why you should learn one
 
 In this lesson, we'll install Flask and create our very first "Hello World" application.
 
-Talk about what the creation of the app object does; things like:
-  - sets up path information (root, templates, static, etc.)
-  - sets the config
-      - Two ways to do this:
-          1) Through a config file - app.config.from_pyfile('settings.cfg')
-              - You can also use app.config.from_envar('SETTINGS_FILE')
-                to point to a file containing your config settings
-          2) Through a python module - app.config.from_object(__name__)
-      - In either case, only upper case attributes are added to the config
-
-Talk about the option for running the app:
-  - host: set to '0.0.0.0' to make it available externally, default to '127.0.0.1'
-  - port: defaults to 5000
-  - debug: Set to true to auto restart after a change
 
 ---
 
@@ -45,6 +31,7 @@ In this episode we create our first template and discuss template inheritance.
 ### 4 - Add the Post Class
 
 In this episode we add a simple Post class to abstract away the details of the underlying text file.
+
 
 ### ? - Generating a Feed
 
