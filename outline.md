@@ -32,6 +32,10 @@ In this episode, we add a simple Post class to abstract away the details of the 
 
 In this episode, we add support for YAML formatted meta data in the header of the blog post markdown files.
 
+### 6 - Create a Custom Jinja Filter
+
+In this episode, we create a custom Jinja filter for formatting the date in our templates.
+
 
 ### ? - Generating a Feed
 
