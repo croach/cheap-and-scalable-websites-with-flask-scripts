@@ -57,10 +57,6 @@ Use the `error_handler` decorator to create a 404 handler. (This one might be be
 
 Create and register a custom `date` filter.
 
-### ? - Werkzeug Debugger
-
-This episode will take a look at the powerful Werkzeug debugger that comes with Flask.
-
 ### ? - Generating URLs
 
 This episode will cover writing URL generators for Frozen.
