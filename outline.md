@@ -26,7 +26,11 @@ In this episode we create our first template and discuss template inheritance.
 
 ### 4 - Add the Post Class
 
-In this episode we add a simple Post class to abstract away the details of the underlying text file.
+In this episode, we add a simple Post class to abstract away the details of the underlying text file.
+
+### 5 - Add support for meta information to the Post class
+
+In this episode, we add support for YAML formatted meta data in the header of the blog post markdown files.
 
 
 ### ? - Generating a Feed
