@@ -23,10 +23,6 @@ In this lesson, we'll install Flask and create our very first "Hello World" appl
 
 In this episode we create our first template and discuss template inheritance.
 
-- Create the templates directory
-  - Discuss the `template_folder` keyword argument to the Flask constructor
-- Create the `base.html` template
-- Create the `post.html` template
 
 ### 4 - Add the Post Class
 
