@@ -40,7 +40,17 @@ In this episode, we add support for YAML formatted meta data in the header of th
 
 In this episode, we create a custom Jinja filter for formatting the date in our templates.
 
-### 8 -
+### 8 - Add the index.html Template
+
+In this episode, we create the index.html template and update the Post class with a url property.
+
+### 9 - Add a Posts Class
+
+In this episode, we add a Posts class that's responsible for loading all of the blog posts for our app.
+
+### 10 - Add the SortedDict Class
+
+In this episode, we add the SortedDict class to make sure that all of our blog posts are in properly sorted.
 
 ---
 
