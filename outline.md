@@ -28,11 +28,15 @@ In this episode we create our first template and discuss template inheritance.
 
 In this episode, we add a simple Post class to abstract away the details of the underlying text file.
 
-### 5 - Add Post Metadata
+### 5 - Debugging Flask Applications
+
+In this episode, we take a look at the built in Werkzeug Debugger and its use in debugging Flask applications. In addition we also take a quick look at using the pdb/ipdb for more in-depth debugging sessions.
+
+### 6 - Add Post Metadata
 
 In this episode, we add support for YAML formatted meta data in the header of the blog post markdown files.
 
-### 6 - Create a Custom Jinja Filter
+### 7 - Create a Custom Jinja Filter
 
 In this episode, we create a custom Jinja filter for formatting the date in our templates.
 
@@ -56,10 +60,6 @@ Make our script pip installable (i.e., create the setup.py file).
 ### ? - Errror Handlers
 
 Use the `error_handler` decorator to create a 404 handler. (This one might be better for the "Intermediate Flask" episode where we create a non-static web application)
-
-### ? - Custom Jinja Template Filter
-
-Create and register a custom `date` filter.
 
 ### ? - Generating URLs
 
