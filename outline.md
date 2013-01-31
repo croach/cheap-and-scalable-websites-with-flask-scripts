@@ -1,4 +1,4 @@
-# Intro to Flask: Creating Your Own Static Blog Generator
+# Foundational Flask: Creating Your Own Static Blog Generator
 ### Christopher Roach
 
 
@@ -17,7 +17,7 @@ In this lesson, we'll install Flask and create our very first "Hello World" appl
 
 ---
 
-## Chapter 2 ???
+## Chapter 2 Creating the Blog
 
 ### 3 - Templates
 
@@ -40,6 +40,11 @@ In this episode, we add support for YAML formatted meta data in the header of th
 
 In this episode, we create a custom Jinja filter for formatting the date in our templates.
 
+### 8 -
+
+---
+
+## Chapter 3 Loose Ends
 
 ### ? - Generating a Feed
 
@@ -49,6 +54,18 @@ This episode demonstrates how easy it is to use the underlying Werkzeug library 
 
 In this episode we'll break the "blog" portion of our code out into a Blueprint.
 
+### ? - Errror Handlers
+
+Use the `error_handler` decorator to create a 404 handler. (This one might be better for the "Intermediate Flask" episode where we create a non-static web application)
+
+### ? - Generating URLs
+
+This episode will cover writing URL generators for Frozen.
+
+---
+
+## Chapter 4 Deployment and Conclusion
+
 ### ? - Deployment (website)
 
 Use fabric to deploy to S3 and/or Github Pages.
@@ -57,13 +74,11 @@ Use fabric to deploy to S3 and/or Github Pages.
 
 Make our script pip installable (i.e., create the setup.py file).
 
-### ? - Errror Handlers
+### ? - Conclusion
 
-Use the `error_handler` decorator to create a 404 handler. (This one might be better for the "Intermediate Flask" episode where we create a non-static web application)
+We quickly recap what we've learned and where we'll be going in a future episode on intermediate Flask.
 
-### ? - Generating URLs
 
-This episode will cover writing URL generators for Frozen.
 
 [flask]: http://flask.pocoo.org
 [werkzeug]: http://werkzeug.pocoo.org
