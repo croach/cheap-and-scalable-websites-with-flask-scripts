@@ -56,6 +56,10 @@ In this episode, we add the SortedDict class to make sure that all of our blog p
 
 ## Chapter 3 Loose Ends
 
+### ? - Configuration
+
+In this episode, we explore how configuration in Flask works and we clean up our Blog and Post classes a bit by adding some configuration to our application.
+
 ### ? - Generating a Feed
 
 This episode demonstrates how easy it is to use the underlying Werkzeug library within a Flask app by using the [AtomFeed][atom] class to generate a Atom feed for our blog.
