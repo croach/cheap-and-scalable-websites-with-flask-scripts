@@ -52,25 +52,28 @@ In this episode, we add a Posts class that's responsible for loading all of the 
 
 In this episode, we add the SortedDict class to make sure that all of our blog posts are in properly sorted.
 
-### 11 - Handling Static Files
-
-In this episode, we'll see how to serve static files and we'll add syntax highlighting for code samples in our blog posts.
-
 ---
 
 ## Chapter 3 Loose Ends
 
-### ? - Generating a Feed
+### 11 - Handling Static Files
+
+In this episode, we'll see how to serve static files and we'll add syntax highlighting for code samples in our blog posts.
+
+### 12 - Generating a Feed
 
 This episode demonstrates how easy it is to use the underlying Werkzeug library within a Flask app by using the [AtomFeed][atom] class to generate a Atom feed for our blog.
 
-### ? - Configuration
+### 13 - Configuration
 
 In this episode, we explore how configuration in Flask works and we clean up our Blog and Post classes a bit by adding some configuration to our application.
 
-### ? - Generate the Static Website
+### 14 - Generate the Static Website
 
 In this episode, we use the Frozen Flask extension to generate our static website.
+
+
+
 
 ### ? - Error Handlers
 
