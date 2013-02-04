@@ -64,14 +64,13 @@ In this episode, we'll see how to serve static files and we'll add syntax highli
 
 This episode demonstrates how easy it is to use the underlying Werkzeug library within a Flask app by using the [AtomFeed][atom] class to generate a Atom feed for our blog.
 
-### 13 - Configuration
-
-In this episode, we explore how configuration in Flask works and we clean up our Blog and Post classes a bit by adding some configuration to our application.
-
-### 14 - Generate the Static Website
+### 13 - Generate the Static Website
 
 In this episode, we use the Frozen Flask extension to generate our static website.
 
+### 14 - Configuration
+
+In this episode, we explore how configuration in Flask works and we clean up our Blog and Post classes a bit by adding some configuration to our application.
 
 
 
