@@ -73,6 +73,9 @@ In this episode, we use the Frozen Flask extension to generate our static websit
 In this episode, we explore how configuration in Flask works and we clean up our Blog and Post classes a bit by adding some configuration to our application.
 
 
+### ? - Secret key
+
+Discuss the secret key: what is it? How to create a safe one? and, What happens if its hacked?
 
 ### ? - Error Handlers
 
