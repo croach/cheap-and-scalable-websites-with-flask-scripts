@@ -72,6 +72,14 @@ In this episode, we use the Frozen Flask extension to generate our static websit
 
 In this episode, we explore how configuration in Flask works and we clean up our Blog and Post classes a bit by adding some configuration to our application.
 
+### 15 - Syntax Highlighting
+
+In this episode, we add syntax highlighting with pygments.
+
+### 16 - Deployment
+
+In this episode, we'll see one way that we can deploy our new blog for free with Github pages.
+
 
 ### ? - Generating URLs
 
@@ -96,10 +104,6 @@ In this episode we'll break the "blog" portion of our code out into a Blueprint.
 ### ? - Deployment (website)
 
 Use fabric to deploy to S3 and/or Github Pages.
-
-### ? - Deployment (script)
-
-Make our script pip installable (i.e., create the setup.py file).
 
 ### ? - Conclusion
 
