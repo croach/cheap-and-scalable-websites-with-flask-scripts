@@ -73,6 +73,10 @@ In this episode, we use the Frozen Flask extension to generate our static websit
 In this episode, we explore how configuration in Flask works and we clean up our Blog and Post classes a bit by adding some configuration to our application.
 
 
+### ? - Generating URLs
+
+This episode will cover writing URL generators for Frozen.
+
 ### ? - Secret key
 
 Discuss the secret key: what is it? How to create a safe one? and, What happens if its hacked?
@@ -84,10 +88,6 @@ Use the `error_handler` decorator to create a 404 handler. (This one might be be
 ### ? - Refactoring with Blueprints
 
 In this episode we'll break the "blog" portion of our code out into a Blueprint.
-
-### ? - Generating URLs
-
-This episode will cover writing URL generators for Frozen.
 
 ---
 
