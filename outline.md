@@ -23,7 +23,6 @@ In this lesson, we'll install Flask and create our very first "Hello World" appl
 
 In this episode we create our first template and discuss template inheritance.
 
-
 ### 4 - Add the Post Class
 
 In this episode, we add a simple Post class to abstract away the details of the underlying text file.
@@ -52,13 +51,13 @@ In this episode, we add a Posts class that's responsible for loading all of the 
 
 In this episode, we add the SortedDict class to make sure that all of our blog posts are in properly sorted.
 
----
-
-## Chapter 3 Loose Ends
-
 ### 11 - Handling Static Files
 
 In this episode, we'll see how to serve static files and we'll add syntax highlighting for code samples in our blog posts.
+
+---
+
+## Chapter 3 Loose Ends
 
 ### 12 - Generating a Feed
 
@@ -76,38 +75,17 @@ In this episode, we explore how configuration in Flask works and we clean up our
 
 In this episode, we add syntax highlighting with pygments.
 
-### 16 - Deployment
-
-In this episode, we'll see one way that we can deploy our new blog for free with Github pages.
-
-
-### ? - Generating URLs
-
-This episode will cover writing URL generators for Frozen.
-
-### ? - Secret key
-
-Discuss the secret key: what is it? How to create a safe one? and, What happens if its hacked?
-
-### ? - Error Handlers
-
-Use the `error_handler` decorator to create a 404 handler. (This one might be better for the "Intermediate Flask" episode where we create a non-static web application)
-
-### ? - Refactoring with Blueprints
-
-In this episode we'll break the "blog" portion of our code out into a Blueprint.
-
 ---
 
 ## Chapter 4 Deployment and Conclusion
 
-### ? - Deployment (website)
+### 16 - Deployment
 
-Use fabric to deploy to S3 and/or Github Pages.
+In this episode, we'll see one way that we can deploy our new blog for free with Github pages.
 
-### ? - Conclusion
+### 17 - Conclusion
 
-We quickly recap what we've learned and where we'll be going in a future episode on intermediate Flask.
+Well, that wraps up this course. If you've followed along with the entire course, you should have both a working knowledge of how to create web applications with Flask and a fully functioning static blog generator that you can put to immediate use. I hope you all have enjoyed this series, and, if you have, keep on the lookout for my next series where we'll dig a bit deeper into Flask and create a little more standard database-backed website. I hope to see you all in the next course!
 
 
 
